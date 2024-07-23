@@ -2,7 +2,27 @@
 
 # ZK-FABRIC
 
+>
+
+- Versatile and Single use Full Synytax Zero Knowledge Proofs System
+- Partioned Garbled Circuits
+- Applied To Arbitrary Circuits with more Comprehensive Statements
+- Achieve Non-Interactivity among All Participants
+  >
+
 zk-Fabric allows a cluster of verifiers to online, anonymously, and jointly compute a succinct digest of garbled circuits C which is prepared by a prover, who also practices the partitioning of the garbled circuit and randomly dispatches segments of them to a publicly accessible repository, i.e. the blockchain or a web portal. The goal is to build a more comprehensive public verification system which can validate more complex statements than other technologies that can only perform a monolithic verification, in other words, with which a verification can only conduct a single hashed value in an arithmetic circuit at a time.
+
+## COMPONENETS
+
+1. Polylithic Syntax Decomposition (refers to content based multiple variable in a comprehensive statements)
+2. Construction of Partinioned Garbled Circuit
+3. Non-Interactive Oblivious Transfer based Multi-Paties Joint Verification Scheme
+
+## Cryptographic Concepts Employed
+
+- Garbled Circuit (method to Encrypt Computation), reveals only the output of the computation but reveals nothing about the inputs or any intermediate values.
+- karnaugh Map, circuit complexity reducer
+- Oblivious Transfer, protocol
 
 # Claims
 
