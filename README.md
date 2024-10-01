@@ -28,7 +28,11 @@ zk-Fabric allows a cluster of verifiers to online, anonymously, and jointly comp
 
 ## Security Evaluation
 
-zk-Fabric can maintain privacy against the semi-honest threat model (Note: zk-Fabric may not be sufficient in protection against the "Malicious" model). We can formalize this using a generalized Fiat-Shamir's secret sharing scheme, which defines a -secure n-party protocol and packs _l_ secrets into a single polynomial. One can run a joint computation for all inputs by just sending a constant number of field elements to the prover. As a result of packing _l_ secrets into a single polynomial, we can reduce the security bound t of zkFabric with multiple verifiers as _t = (n-1)/2_ to _t’ = t - l + 1_. In zk-Fabric, OT is a very useful building block in achieving protection against semi-honest participants.
+zk-Fabric can maintain privacy against the semi-honest threat model (Note: zk-Fabric may not be sufficient in protection against the "Malicious" model).
+We can formalize this using a generalized Fiat-Shamir's secret sharing scheme, which defines a secure n-party protocol and packs `l` secrets into a single polynomial.
+One can run a joint computation for all inputs by just sending a constant number of field elements to the prover.  
+As a result of packing `l` secrets into a single polynomial, we can reduce the security bound t of zkFabric with multiple verifiers as `t = (n-1)/2` to `t’ = t - l + 1`.  
+In zk-Fabric, OT is a very useful building block in achieving protection against semi-honest participants.
 
 ## Computational Efficiency
 
